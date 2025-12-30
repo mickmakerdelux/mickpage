@@ -1,0 +1,25 @@
+{
+  "siteTitle": "My Wellness Map",
+  "siteSubtitle": "サウナ・体育館・ジム巡りの記録",
+
+  "categories": [
+    {
+      "id": "sauna",
+      "label": "サウナ",
+      "emoji": "🧖",
+      "color": "#e17055"
+    },
+    {
+      "id": "gym",
+      "label": "ジム",
+      "emoji": "💪",
+      "color": "#00b894"
+    },
+    {
+      "id": "sports",
+      "label": "体育館",
+      "emoji": "🏀",
+      "color": "#6c5ce7"
+    }
+  ]
+}

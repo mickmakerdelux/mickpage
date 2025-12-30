@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Wellness Log</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="site-title">My Wellness Log</h1>
+    <p id="site-subtitle" class="subtitle">読み込み中...</p>
+  </header>
+
+  <div id="filters" class="filters">
+    <!-- ボタンは config.json から自動生成されます -->
+  </div>
+
+  <main>
+    <div id="cards" class="cards-grid">
+      <!-- カードは data.json から自動生成されます -->
+    </div>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="close-btn">&times;</button>
+      <div class="modal-body">
+        <span class="category-badge"></span>
+        <h2 class="place-name"></h2>
+        <p class="visit-date"></p>
+        <div class="place-image"></div>
+        <p class="place-memo"></p>
+        <p class="place-address"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Last updated: <span id="last-updated"></span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
