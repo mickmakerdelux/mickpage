@@ -4,8 +4,8 @@
 
   "categories": [
     {
-      "id": "sauna",
-      "label": "beer",
+      "id": "beer",
+      "label": "ビール",
       "emoji": "🍺",
       "color": "#e17055"
     },
